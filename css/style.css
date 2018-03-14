@@ -1,9 +1,19 @@
-body,
+body {   
+    font-family: "Sunshiney", cursive; 
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #2d3c49;
+}
+
 div,
 ul,
 li,
 p,
-h1,
+h1 { 
+    font-family: "Sunshiney", cursive; 
+    color: #2d3c49;
+    font-weight: 400;
+}
 h2,
 h3,
 h4,
@@ -40,7 +50,8 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
+  font-style: bold;
+  /*font-family: "Sunshiney", cursive; */
   font-size: 20px;
   color: #000;
   line-height: 22px;
